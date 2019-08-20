@@ -1,2 +1,2 @@
 # mapBox
-a simple app showing some places in Egypt using mapbox api 
+a simple web page showing some places in Egypt using mapbox api 
