@@ -104,10 +104,14 @@ geojson.features.forEach(function(filtered) {
       filtered.listing.style.cursor = "pointer";
       filtered.listing.addEventListener('click', function(e) {
 
-        new mapboxgl.Popup()
-          .setLngLat(filtered.geometry.coordinates)
-          .setHTML('<h3>' + filtered.properties.title + '</h3><p>' + filtered.properties.description + '</p>')
-          .addTo(map);
+          var popUps = document.getElementsByClassName('mapboxgl-popup');
+          // Check if there is already a popup on the map and if so, remove it
+          if (popUps[0]) popUps[0].remove();
+
+          var popup = new mapboxgl.Popup({ closeOnClick: false })
+            .setLngLat(filtered.geometry.coordinates)
+            .setHTML('<h3>' + filtered.properties.title + '</h3><p>' + filtered.properties.description + '</p>')
+            .addTo(map);
 
     });
 
@@ -162,3 +166,8 @@ for(var i = 0 ; i<geojson.features.length ; i++){
 
 
 }
+
+
+
+
+module.exports = myFunction;
