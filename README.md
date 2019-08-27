@@ -12,8 +12,8 @@ LIVE LINK: [CLICK HERE](http://high-apple.surge.sh)
 * There is a button in the upper left you can click to preview the side panel.
 * Side panel contains name of every place and a serch bar above to filter places.
 
-# Running the project
+## Running the project
 You can pull this project directly and run it without making any effort.
 
-# Dependencies
+## Dependencies
 The only external library is [Mapbox GL Js](https://docs.mapbox.com/mapbox-gl-js/api/)
