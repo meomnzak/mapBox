@@ -1,6 +1,6 @@
 
 # mapBox  
-![Map](https://github.com/meomnzak/mapBox/Capture.PNG)
+![Map](https://github.com/meomnzak/mapBox/blob/master/Capture.PNG)
 ## Overview
 This web page was made as a part of Chingu voyage 11 pre-work and it is showing some places in Egypt using  [Mapbox GL Js](https://docs.mapbox.com/mapbox-gl-js/api/)
 
